@@ -1,25 +1,30 @@
-import React from 'react';
-import Header from './components/header/Header';
-import NavBar from './components/nav/NavBar';
-import About from './components/about/About';
-import Experience from './components/experience/Experience';
-import Footer from './components/footer/Footer';
-import Contact from './components/contact/Contact';
-import Portfolio from './components/portfolio/Portfolio';
+import Navbar from "./components/Navbar/Navbar";
+// import Intro from "./components/Intro/Intro";
+import Experience from "./components/Experience/Experience";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
-import './App.css';
+import "./App.css";
+
+import { useContext } from "react";
+import { themeContext } from "./Context";
 
 function App() {
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
   return (
-    <div className="App">
-      <Header />
-      <NavBar />
-      <About />
+    <div
+      className="App"
+      style={{
+        background: darkMode ? "black" : "",
+        color: darkMode ? "white" : "",
+      }}
+    >
+      <Navbar />
+      {/* <Intro /> */}
       <Experience />
-      <Portfolio />
       <Contact />
       <Footer />
-
     </div>
   );
 }
