@@ -1,13 +1,10 @@
 import React from "react";
-import Toggle from "../Toggle/Toggle";
 import "./Navbar.css";
-// import { Link } from "react-scroll";
-const navbar = () => {
+
+function Navbar() {
   return (
-    <div className="n-wrapper" id="Navbar">
-      
-    </div>
+    <h1>Navbar</h1>
   );
 };
 
-export default navbar;
+export default Navbar;
