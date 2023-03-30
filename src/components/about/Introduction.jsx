@@ -22,26 +22,25 @@ export const Introduction = () => {
             <div className="introduction_datacontainer">
               <h4>
                 Hi Everyone, My name is{" "}
-                <span className="different">Shreyas Khakal </span> and I am from{" "}
+                <span className="different">Mahamadou Touray </span> and I am from{" "}
                 <span className="different">
                   {" "}
-                  Ahmednagar, Maharashtra (India)
+                  East Orange, NJ (USA)
                 </span>
-                . I have completed my graduation in BTech (Agril. Engineering)
+                . I have completed my graduation in Engineering (Mechanical Engineering)
                 from{" "}
                 <span className="different">
-                  VNMKV Agricultural University, Parbhani (MH)
+                  Essex County College 
                 </span>
                 . Then I joined full stack development course by{" "}
-                <span className="different">Masai School</span> a military type
-                coding school.
+                <span className="different">Per Scholas</span> a Non-Profit Tech Institute
               </h4>
               <h4>Terms That can describe me apart form Coding :</h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Entrepreneure{" "}
+                Entrepreneur{" "}
               </h4>
               <h4 className="different">
                 <span className="icons">
@@ -61,7 +60,7 @@ export const Introduction = () => {
                 </span>
                 Poet{" "}
               </h4>
-            </div>
+            </div>"
           </div>
         </div>
       </section>
