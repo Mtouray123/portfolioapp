@@ -1,10 +1,23 @@
-import React from 'react'
-import './Footer.css'
+import React from "react";
+import "./Footer.css";
+import { ThemeContext } from "../../Context/theme";
 
-function Footer () {
+export const Footer = () => {
+  const [{ themename }] = React.useContext(ThemeContext);
+
   return (
-    <h1>Footer</h1>
-  )
-}
-
-export default Footer;
+    <>
+      <div className={"section " + themename}>
+        <a href="/" rel="noreferrer" target="_blank">
+          <div className="footerBox">
+            <h3 className="footer">
+              Made with{" "}
+              <span style={{ color: `red`, background: `transparent` }}>❤</span>{" "}
+              By Touray
+            </h3>
+          </div>
+        </a>
+      </div>
+    </>
+  );
+};

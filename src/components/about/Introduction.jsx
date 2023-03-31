@@ -2,7 +2,7 @@ import React from "react";
 import "./Introduction.css";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import { ThemeContext } from "../../Context/theme";
-import profilePic from "../../assets/Photo_fw14_056.png";
+import profilePic from "../../assets/6016.png_1200.png";
 
 
 export const Introduction = () => {
@@ -22,7 +22,7 @@ export const Introduction = () => {
             <div className="introduction_datacontainer">
               <h4>
                 Hi Everyone, My name is{" "}
-                <span className="different">Mahamadou Touray </span> and I am from{" "}
+                <span className="different">Mahamadou Touray </span> and I was born and raised in{" "}
                 <span className="different">
                   {" "}
                   East Orange, NJ (USA)
@@ -35,30 +35,30 @@ export const Introduction = () => {
                 . Then I joined full stack development course by{" "}
                 <span className="different">Per Scholas</span> a Non-Profit Tech Institute
               </h4>
-              <h4>Terms That can describe me apart form Coding :</h4>
+              <h4>Terms That can describe me:</h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Entrepreneur{" "}
+                Enthusiastic{" "}
               </h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Chess Enthusiast{" "}
+                Passionate{" "}
               </h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                YouTuber{" "}
+                Willingness to Learn{" "}
               </h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Poet{" "}
+                Determined{" "}
               </h4>
             </div>"
           </div>
