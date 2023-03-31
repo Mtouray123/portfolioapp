@@ -1,0 +1,10 @@
+.introduction {
+    width: 100%;
+    display: flex;
+    margin-top: 4em;
+    margin-bottom: 4em;
+  }
+  
+  .different {
+    color: var(--clr-primary);
+  }

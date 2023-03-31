@@ -18,7 +18,7 @@ export function UseWords(){
         <>
         <div>
                 <h5>Word of Day:</h5>
-                <p>{words[0].meanings[0].definitions[0].definition}</p>
+                {/* <p>{words[0].meanings[0].definitions[0].definition}</p> */}
                 <p>{words.definition}</p>
             </div>
         </>
