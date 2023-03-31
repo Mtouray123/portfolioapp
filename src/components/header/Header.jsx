@@ -4,7 +4,7 @@ import { ThemeContext } from "../../Context/theme";
 
 import "./Header.css";
 
-export const Header = () => {
+function Header(){
   const [{ themename }] = React.useContext(ThemeContext);
 
   return (
@@ -20,3 +20,5 @@ export const Header = () => {
     </>
   );
 };
+
+export default Header;
