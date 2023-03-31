@@ -7,17 +7,18 @@ export function UseWords(){
         async function fetchWords(){
             const response = await fetch('https://api.dictionaryapi.dev/api/v2/entries/en/hello')
             const data = await response.json()
-            const wordData = data
-            setWords(wordData)
-            console.log(data);
+            // const wordData = data
+            setWords(data)
+            console.log(data[0].meanings[0].definitions[0].definition);
         }
         fetchWords();
     }, [])
+
     return(
         <>
-        <div className='quotes'>
+        <div>
                 <h5>Word of Day:</h5>
-                <p>{words.word}</p>
+                <p>{words[0].meanings[0].definitions[0].definition}</p>
                 <p>{words.definition}</p>
             </div>
         </>
