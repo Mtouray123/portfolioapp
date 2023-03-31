@@ -1,6 +1,6 @@
 import {useState, useEffect} from 'react';
 
-export function UseWords(){
+export function UseWords() {
     const [words, setWords] = useState([]);
 
     useEffect(() => {
