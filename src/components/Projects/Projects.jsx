@@ -1,11 +1,9 @@
 import React from "react";
 import "./Projects.css";
-import { FaReact, FaHardHat } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
 import {
   SiHtml5,
-  SiMaterialui,
   SiExpress,
-  SiReactrouter,
   SiJavascript,
   SiMongodb,
   SiNodedotjs,
@@ -31,9 +29,7 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Movies App</h2>
                 <p>
-                  Rockstar games is a video game company who develops lots of
-                  games like GTA, Red Dead, and many more. we build clone of
-                  their store website.
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore exercitationem obcaecati quo fuga sequi, consectetur quod maxime sapiente omnis voluptatum, dignissimos accusantium ducimus possimus placeat officiis ut quas ratione voluptatem.
                 </p>
                 <div>
                   <SiHtml5 />
@@ -44,7 +40,7 @@ export const Projects = () => {
                 <div>
                   <a
                     href="https://store-rockstargames.vercel.app/"
-                    target="_blank"
+                    target=""
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt onbt">
@@ -229,7 +225,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Shreyasgkhakal100/www.pulseplus.in-Clone"
+                    href="https://docs.google.com/document/d/1tcSc1Io_0UAzk7-qr-RvK51I8-KmXsVgMAJhjkapK-A/edit"
                     target="_blank"
                     rel="noreferrer"
                   >

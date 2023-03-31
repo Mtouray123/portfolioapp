@@ -16,7 +16,7 @@ export function UseWords(){
     return(
         <>
         <div className='quotes'>
-                <h2>Word of Day:</h2>
+                <h5>Word of Day:</h5>
                 <p>{words.word}</p>
                 <p>{words.definition}</p>
             </div>
