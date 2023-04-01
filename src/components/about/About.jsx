@@ -1,5 +1,5 @@
 import React from "react";
-import "./About.css";
+import "./about.css";
 
 import { UseWords } from "../../API/Words";
 import { Introduction } from "../Introduction/Introduction";

@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar } from "../Navbar/Navbar";
 import { ThemeContext } from "../../Context/theme";
 
-import "./Header.css";
+import "./header.css";
 
 function Header(){
   const [{ themename }] = React.useContext(ThemeContext);

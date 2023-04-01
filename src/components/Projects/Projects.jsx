@@ -10,6 +10,10 @@ import {
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
+import Jeopardy from "../../assets/JeopardyScreenshot.png"
+import Spacejam from "../../assets/SpaceJam.png"
+import Website from "../../assets/MyWebsite.png"
+
 export const Projects = () => {
   return (
     <>
@@ -21,7 +25,7 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://www.edigitalagency.com.au/wp-content/uploads/Netflix-logo-red-black-png.png"
+                    src={Spacejam}
                     alt="Movies App"
                   />
                 </div>
@@ -29,7 +33,7 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Movies App</h2>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore exercitationem obcaecati quo fuga sequi, consectetur quod maxime sapiente omnis voluptatum, dignissimos accusantium ducimus possimus placeat officiis ut quas ratione voluptatem.
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore exercitationem obcaecati quo fuga sequi, consectetur quod maxime.
                 </p>
                 <div>
                   <SiHtml5 />
@@ -39,7 +43,7 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://store-rockstargames.vercel.app/"
+                    href="https://moviesforfun.netlify.app/"
                     target=""
                     rel="noreferrer"
                   >
@@ -111,33 +115,33 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://aem.dropbox.com/cms/content/dam/dropbox/www/en-us/branding/dropbox-logo@2x.jpg"
-                    alt=""
+                    src={Jeopardy}
+                    alt="Jeopardy"
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>DropBox Clone -Backend</h2>
+                <h2>Jeopardy Project</h2>
                 <p>
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga voluptate odit animi explicabo culpa? Culpa veritatis aperiam alias recusandae voluptates velit dolore quidem. Ipsum neque consequatur beatae soluta, id praesentium.
                 </p>
                 <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
+                  <SiHtml5 />
+                  <DiCss3 />
+                  <SiJavascript />
                 </div>
                 <div>
                   <a
-                    href="https://drive-system.herokuapp.com/user/"
+                    href="https://jeopardyproject.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt onbt">
-                      URL for the API
+                      Let's Play
                     </span>
                   </a>
                   <a
-                    href="https://github.com/imbickydutta/file-system-backend"
+                    href="https://github.com/Mtouray123/Jeopardy-Project"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -154,26 +158,23 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://i.ibb.co/934WpdD/uniqlo-clone.png"
-                    alt="Uniqlo-Clone"
+                    src={Website}
+                    alt="First Website"
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>Lorem, ipsum dolor.</h2>
+                <h2>First HTML Website</h2>
                 <p>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, voluptates minima voluptatum, in tempora illo iure eos quaerat, ea tempore deleniti fugit sint debitis labore!
                 </p>
                 <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
                   <SiHtml5 />
                   <DiCss3 />
                 </div>
                 <div>
                   <a
-                    href="https://uniqlo-clone.netlify.app/"
+                    href="https://mahamadouwebsite.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -182,7 +183,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Shreyasgkhakal100/uniqlo-backend-2"
+                    href="https://github.com/Mtouray123/MyFirstWebsite"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -216,7 +217,7 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://pulseplus-clone.netlify.app/landing_page.html"
+                    href="https://mahamadouwebsite.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -225,7 +226,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://docs.google.com/document/d/1tcSc1Io_0UAzk7-qr-RvK51I8-KmXsVgMAJhjkapK-A/edit"
+                    href="https://www.google.com/"
                     target="_blank"
                     rel="noreferrer"
                   >
